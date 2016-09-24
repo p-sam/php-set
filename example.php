@@ -28,3 +28,5 @@ var_dump($set->toArray());
 var_dump($set->has(1));
 
 var_dump($set->has(2));
+
+var_dump(count($set));
