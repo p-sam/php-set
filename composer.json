@@ -1,6 +1,7 @@
 {
     "name": "p-sam/set",
     "type": "library",
+    "version": "0.0.1",
     "description": "A PHP Set class limited to scalar using hashmaps",
     "keywords": ["php", "set", "class", "hashmap", "shim"],
     "homepage": "http://github.com/p-sam/php-set",
