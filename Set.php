@@ -2,7 +2,7 @@
 
 namespace SP\Set;
 
-class Set implements \IteratorAggregate {
+class Set implements \IteratorAggregate, \Countable {
 	private $hashmap;
 	private $iterator;
 	
@@ -53,4 +53,7 @@ class Set implements \IteratorAggregate {
 		}
 	}
 	
+	public function count() {
+		return count($this->hashmap);
+	}
 }
