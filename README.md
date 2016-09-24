@@ -30,6 +30,8 @@ var_dump($set->toArray());
 var_dump($set->has(1));
 
 var_dump($set->has(2));
+
+var_dump(count($set));
 ```
 
 ## Expected Output
@@ -75,4 +77,5 @@ array(2) {
 }
 bool(false)
 bool(true)
+int(2)
 ```
