@@ -1,0 +1,20 @@
+{
+    "name": "p-sam/set",
+    "type": "library",
+    "description": "A PHP Set class limited to scalar using hashmaps",
+    "keywords": ["php", "set", "class", "hashmap", "shim"],
+    "homepage": "http://github.com/p-sam/php-set",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "p-sam",
+            "email": "p-sam@d3vs.net"
+        }
+    ],
+    "require": {
+        "php": ">= 5.4"
+    },
+    "autoload": {
+        "psr-4": { "SP\\Set\\": "" }
+    }
+}
